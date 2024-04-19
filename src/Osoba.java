@@ -28,7 +28,7 @@ public class Osoba {
         }
         if (this.wiek <= 18)
             znizka += 50;
-        if (this.miasto.equals("Warszawa"))
+        if (this.miasto.equals("warszawa"))
             znizka += 10;
         return znizka;
     }
